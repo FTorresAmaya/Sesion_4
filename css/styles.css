@@ -1,13 +1,17 @@
 body{
-    display: flex;
+    
 }
 
+.container{
+
+}
 
 #div1 {
 background-color: red;
 width: 200px;
 height: 200px;
-justify-content: start;
+position: absolute;
+
 }
 
 #div2 {
@@ -15,7 +19,7 @@ justify-content: start;
     width: 200px;
     height: 200px;
   
-justify-content: end;
+    position: relative ; left: 200px; top: 0px;
     }
 
 #div3 {
@@ -32,6 +36,5 @@ justify-content: end;
  background-color: purple;
  width: 200px;
  height: 200px;
-display: flex;
-justify-content: flex-start
+ position: relative ; left: 200px; top: -200px;
     }      
